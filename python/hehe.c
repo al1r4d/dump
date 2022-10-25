@@ -1392,88 +1392,126 @@ int __pyx_module_is_main_hehe = 0;
 static PyObject *__pyx_builtin_input;
 static PyObject *__pyx_builtin_exit;
 static PyObject *__pyx_builtin_map;
+static PyObject *__pyx_builtin_max;
+static PyObject *__pyx_builtin_min;
 static const char __pyx_k_[] = "--";
 static const char __pyx_k_x[] = "x";
-static const char __pyx_k__6[] = "";
+static const char __pyx_k__2[] = "*";
+static const char __pyx_k__9[] = "";
 static const char __pyx_k_np[] = "np";
 static const char __pyx_k_end[] = "end";
 static const char __pyx_k_key[] = "key";
 static const char __pyx_k_map[] = "map";
+static const char __pyx_k_max[] = "max";
+static const char __pyx_k_min[] = "min";
+static const char __pyx_k_plt[] = "plt";
+static const char __pyx_k_std[] = "std";
 static const char __pyx_k_exit[] = "exit";
 static const char __pyx_k_file[] = "file";
 static const char __pyx_k_hehe[] = "hehe";
+static const char __pyx_k_hist[] = "hist";
 static const char __pyx_k_keys[] = "keys";
 static const char __pyx_k_main[] = "__main__";
+static const char __pyx_k_maks[] = "maks";
 static const char __pyx_k_mean[] = "mean";
 static const char __pyx_k_name[] = "__name__";
 static const char __pyx_k_opsi[] = "opsi";
+static const char __pyx_k_show[] = "show";
 static const char __pyx_k_test[] = "__test__";
+static const char __pyx_k_Range[] = "Range";
 static const char __pyx_k_input[] = "input";
+static const char __pyx_k_minim[] = "minim";
 static const char __pyx_k_numpy[] = "numpy";
 static const char __pyx_k_opsi1[] = "opsi1";
+static const char __pyx_k_opsi3[] = "opsi3";
 static const char __pyx_k_print[] = "print";
 static const char __pyx_k_Keluar[] = "Keluar";
 static const char __pyx_k_adalah[] = "adalah";
+static const char __pyx_k_format[] = "format";
 static const char __pyx_k_import[] = "__import__";
 static const char __pyx_k_opsi_1[] = "opsi 1";
+static const char __pyx_k_opsi_3[] = "opsi 3";
+static const char __pyx_k_Deviasi[] = "Deviasi";
 static const char __pyx_k_asarray[] = "asarray";
 static const char __pyx_k_hehe_py[] = "hehe.py";
 static const char __pyx_k_Salah_cuk[] = "Salah cuk ...";
 static const char __pyx_k_opsi_menu[] = "opsi_menu";
+static const char __pyx_k_input_data[] = "input_data";
 static const char __pyx_k_print_menu[] = "print_menu";
-static const char __pyx_k_Salah_cuk_2[] = "Salah cuk";
 static const char __pyx_k_input_masuk[] = "input_masuk";
 static const char __pyx_k_Makasih_dah_make[] = "Makasih dah make :*";
 static const char __pyx_k_Masukkan_pilihan[] = "Masukkan pilihan: ";
+static const char __pyx_k_matplotlib_pyplot[] = "matplotlib.pyplot";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_Maka_hasil_dari_mean_dari[] = "Maka hasil dari mean dari";
+static const char __pyx_k_Deviasi_Maksimum_Minimum_dan_Ran[] = "Deviasi = {}, Maksimum = {}, Minimum = {}, dan Range = {}";
 static PyObject *__pyx_kp_s_;
+static PyObject *__pyx_n_s_Deviasi;
+static PyObject *__pyx_kp_s_Deviasi_Maksimum_Minimum_dan_Ran;
 static PyObject *__pyx_n_s_Keluar;
 static PyObject *__pyx_kp_s_Maka_hasil_dari_mean_dari;
 static PyObject *__pyx_kp_s_Makasih_dah_make;
 static PyObject *__pyx_kp_s_Masukkan_pilihan;
+static PyObject *__pyx_n_s_Range;
 static PyObject *__pyx_kp_s_Salah_cuk;
-static PyObject *__pyx_kp_s_Salah_cuk_2;
-static PyObject *__pyx_kp_s__6;
+static PyObject *__pyx_n_s__2;
+static PyObject *__pyx_kp_s__9;
 static PyObject *__pyx_n_s_adalah;
 static PyObject *__pyx_n_s_asarray;
 static PyObject *__pyx_n_s_cline_in_traceback;
 static PyObject *__pyx_n_s_end;
 static PyObject *__pyx_n_s_exit;
 static PyObject *__pyx_n_s_file;
+static PyObject *__pyx_n_s_format;
 static PyObject *__pyx_n_s_hehe;
 static PyObject *__pyx_kp_s_hehe_py;
+static PyObject *__pyx_n_s_hist;
 static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_n_s_input;
+static PyObject *__pyx_n_s_input_data;
 static PyObject *__pyx_n_s_input_masuk;
 static PyObject *__pyx_n_s_key;
 static PyObject *__pyx_n_s_keys;
 static PyObject *__pyx_n_s_main;
+static PyObject *__pyx_n_s_maks;
 static PyObject *__pyx_n_s_map;
+static PyObject *__pyx_n_s_matplotlib_pyplot;
+static PyObject *__pyx_n_s_max;
 static PyObject *__pyx_n_s_mean;
+static PyObject *__pyx_n_s_min;
+static PyObject *__pyx_n_s_minim;
 static PyObject *__pyx_n_s_name;
 static PyObject *__pyx_n_s_np;
 static PyObject *__pyx_n_s_numpy;
 static PyObject *__pyx_n_s_opsi;
 static PyObject *__pyx_n_s_opsi1;
+static PyObject *__pyx_n_s_opsi3;
 static PyObject *__pyx_kp_s_opsi_1;
+static PyObject *__pyx_kp_s_opsi_3;
 static PyObject *__pyx_n_s_opsi_menu;
+static PyObject *__pyx_n_s_plt;
 static PyObject *__pyx_n_s_print;
 static PyObject *__pyx_n_s_print_menu;
+static PyObject *__pyx_n_s_show;
+static PyObject *__pyx_n_s_std;
 static PyObject *__pyx_n_s_test;
 static PyObject *__pyx_n_s_x;
 static PyObject *__pyx_pf_4hehe_print_menu(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
 static PyObject *__pyx_pf_4hehe_2opsi1(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_pf_4hehe_4opsi3(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
 static PyObject *__pyx_int_1;
 static PyObject *__pyx_int_2;
-static PyObject *__pyx_tuple__2;
-static PyObject *__pyx_tuple__4;
+static PyObject *__pyx_int_3;
+static PyObject *__pyx_tuple__3;
+static PyObject *__pyx_tuple__5;
 static PyObject *__pyx_tuple__7;
-static PyObject *__pyx_codeobj__3;
-static PyObject *__pyx_codeobj__5;
+static PyObject *__pyx_tuple__10;
+static PyObject *__pyx_codeobj__4;
+static PyObject *__pyx_codeobj__6;
+static PyObject *__pyx_codeobj__8;
 /* Late includes */
 
-/* "hehe.py":10
+/* "hehe.py":11
  * }
  * 
  * def print_menu():             # <<<<<<<<<<<<<<
@@ -1509,16 +1547,16 @@ static PyObject *__pyx_pf_4hehe_print_menu(CYTHON_UNUSED PyObject *__pyx_self) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("print_menu", 0);
 
-  /* "hehe.py":11
+  /* "hehe.py":12
  * 
  * def print_menu():
  *     for key in opsi_menu.keys():             # <<<<<<<<<<<<<<
  *         print (key, '--', opsi_menu[key] )
  * def opsi1():
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_opsi_menu); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 11, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_opsi_menu); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_keys); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 11, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_keys); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -1533,16 +1571,16 @@ static PyObject *__pyx_pf_4hehe_print_menu(CYTHON_UNUSED PyObject *__pyx_self) {
   }
   __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 11, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (likely(PyList_CheckExact(__pyx_t_1)) || PyTuple_CheckExact(__pyx_t_1)) {
     __pyx_t_3 = __pyx_t_1; __Pyx_INCREF(__pyx_t_3); __pyx_t_4 = 0;
     __pyx_t_5 = NULL;
   } else {
-    __pyx_t_4 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 11, __pyx_L1_error)
+    __pyx_t_4 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 12, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_5 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 11, __pyx_L1_error)
+    __pyx_t_5 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 12, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   for (;;) {
@@ -1550,17 +1588,17 @@ static PyObject *__pyx_pf_4hehe_print_menu(CYTHON_UNUSED PyObject *__pyx_self) {
       if (likely(PyList_CheckExact(__pyx_t_3))) {
         if (__pyx_t_4 >= PyList_GET_SIZE(__pyx_t_3)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_1 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(0, 11, __pyx_L1_error)
+        __pyx_t_1 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(0, 12, __pyx_L1_error)
         #else
-        __pyx_t_1 = PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 11, __pyx_L1_error)
+        __pyx_t_1 = PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 12, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         #endif
       } else {
         if (__pyx_t_4 >= PyTuple_GET_SIZE(__pyx_t_3)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_1 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(0, 11, __pyx_L1_error)
+        __pyx_t_1 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(0, 12, __pyx_L1_error)
         #else
-        __pyx_t_1 = PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 11, __pyx_L1_error)
+        __pyx_t_1 = PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 12, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         #endif
       }
@@ -1570,7 +1608,7 @@ static PyObject *__pyx_pf_4hehe_print_menu(CYTHON_UNUSED PyObject *__pyx_self) {
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 11, __pyx_L1_error)
+          else __PYX_ERR(0, 12, __pyx_L1_error)
         }
         break;
       }
@@ -1579,19 +1617,19 @@ static PyObject *__pyx_pf_4hehe_print_menu(CYTHON_UNUSED PyObject *__pyx_self) {
     __Pyx_XDECREF_SET(__pyx_v_key, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "hehe.py":12
+    /* "hehe.py":13
  * def print_menu():
  *     for key in opsi_menu.keys():
  *         print (key, '--', opsi_menu[key] )             # <<<<<<<<<<<<<<
  * def opsi1():
  *     input_masuk = list(map(int,input()))
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_opsi_menu); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 12, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_opsi_menu); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 13, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_t_1, __pyx_v_key); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 12, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_t_1, __pyx_v_key); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 13, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 12, __pyx_L1_error)
+    __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 13, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_INCREF(__pyx_v_key);
     __Pyx_GIVEREF(__pyx_v_key);
@@ -1602,10 +1640,10 @@ static PyObject *__pyx_pf_4hehe_print_menu(CYTHON_UNUSED PyObject *__pyx_self) {
     __Pyx_GIVEREF(__pyx_t_2);
     PyTuple_SET_ITEM(__pyx_t_1, 2, __pyx_t_2);
     __pyx_t_2 = 0;
-    if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 12, __pyx_L1_error)
+    if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 13, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "hehe.py":11
+    /* "hehe.py":12
  * 
  * def print_menu():
  *     for key in opsi_menu.keys():             # <<<<<<<<<<<<<<
@@ -1615,7 +1653,7 @@ static PyObject *__pyx_pf_4hehe_print_menu(CYTHON_UNUSED PyObject *__pyx_self) {
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "hehe.py":10
+  /* "hehe.py":11
  * }
  * 
  * def print_menu():             # <<<<<<<<<<<<<<
@@ -1639,7 +1677,7 @@ static PyObject *__pyx_pf_4hehe_print_menu(CYTHON_UNUSED PyObject *__pyx_self) {
   return __pyx_r;
 }
 
-/* "hehe.py":13
+/* "hehe.py":14
  *     for key in opsi_menu.keys():
  *         print (key, '--', opsi_menu[key] )
  * def opsi1():             # <<<<<<<<<<<<<<
@@ -1674,16 +1712,16 @@ static PyObject *__pyx_pf_4hehe_2opsi1(CYTHON_UNUSED PyObject *__pyx_self) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("opsi1", 0);
 
-  /* "hehe.py":14
+  /* "hehe.py":15
  *         print (key, '--', opsi_menu[key] )
  * def opsi1():
  *     input_masuk = list(map(int,input()))             # <<<<<<<<<<<<<<
  *     input_masuk = np.asarray(input_masuk)
  *     x = np.mean(input_masuk)
  */
-  __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_builtin_input); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_builtin_input); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 15, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 15, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)(&PyInt_Type)));
   __Pyx_GIVEREF(((PyObject *)(&PyInt_Type)));
@@ -1691,25 +1729,25 @@ static PyObject *__pyx_pf_4hehe_2opsi1(CYTHON_UNUSED PyObject *__pyx_self) {
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_1);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_map, __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_map, __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 15, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PySequence_List(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_t_2 = PySequence_List(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 15, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_input_masuk = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "hehe.py":15
+  /* "hehe.py":16
  * def opsi1():
  *     input_masuk = list(map(int,input()))
  *     input_masuk = np.asarray(input_masuk)             # <<<<<<<<<<<<<<
  *     x = np.mean(input_masuk)
  *     print('Maka hasil dari mean dari', input_masuk, 'adalah' , x)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 15, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 16, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_asarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 15, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_asarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 16, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = NULL;
@@ -1724,22 +1762,22 @@ static PyObject *__pyx_pf_4hehe_2opsi1(CYTHON_UNUSED PyObject *__pyx_self) {
   }
   __pyx_t_2 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_1, __pyx_v_input_masuk) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_input_masuk);
   __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 15, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 16, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF_SET(__pyx_v_input_masuk, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "hehe.py":16
+  /* "hehe.py":17
  *     input_masuk = list(map(int,input()))
  *     input_masuk = np.asarray(input_masuk)
  *     x = np.mean(input_masuk)             # <<<<<<<<<<<<<<
  *     print('Maka hasil dari mean dari', input_masuk, 'adalah' , x)
- * 
+ * def opsi3():
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 16, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_mean); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 16, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_mean); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -1754,20 +1792,20 @@ static PyObject *__pyx_pf_4hehe_2opsi1(CYTHON_UNUSED PyObject *__pyx_self) {
   }
   __pyx_t_2 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_3, __pyx_v_input_masuk) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_input_masuk);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 16, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_x = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "hehe.py":17
+  /* "hehe.py":18
  *     input_masuk = np.asarray(input_masuk)
  *     x = np.mean(input_masuk)
  *     print('Maka hasil dari mean dari', input_masuk, 'adalah' , x)             # <<<<<<<<<<<<<<
- * 
- * if __name__=='__main__':
+ * def opsi3():
+ *     input_data = list(map(int,input()))
  */
-  __pyx_t_2 = PyTuple_New(4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 17, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 18, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_kp_s_Maka_hasil_dari_mean_dari);
   __Pyx_GIVEREF(__pyx_kp_s_Maka_hasil_dari_mean_dari);
@@ -1781,10 +1819,10 @@ static PyObject *__pyx_pf_4hehe_2opsi1(CYTHON_UNUSED PyObject *__pyx_self) {
   __Pyx_INCREF(__pyx_v_x);
   __Pyx_GIVEREF(__pyx_v_x);
   PyTuple_SET_ITEM(__pyx_t_2, 3, __pyx_v_x);
-  if (__Pyx_PrintOne(0, __pyx_t_2) < 0) __PYX_ERR(0, 17, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_t_2) < 0) __PYX_ERR(0, 18, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "hehe.py":13
+  /* "hehe.py":14
  *     for key in opsi_menu.keys():
  *         print (key, '--', opsi_menu[key] )
  * def opsi1():             # <<<<<<<<<<<<<<
@@ -1804,6 +1842,288 @@ static PyObject *__pyx_pf_4hehe_2opsi1(CYTHON_UNUSED PyObject *__pyx_self) {
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_input_masuk);
   __Pyx_XDECREF(__pyx_v_x);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "hehe.py":19
+ *     x = np.mean(input_masuk)
+ *     print('Maka hasil dari mean dari', input_masuk, 'adalah' , x)
+ * def opsi3():             # <<<<<<<<<<<<<<
+ *     input_data = list(map(int,input()))
+ *     maks = max(input_data)
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_4hehe_5opsi3(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyMethodDef __pyx_mdef_4hehe_5opsi3 = {"opsi3", (PyCFunction)__pyx_pw_4hehe_5opsi3, METH_NOARGS, 0};
+static PyObject *__pyx_pw_4hehe_5opsi3(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("opsi3 (wrapper)", 0);
+  __pyx_r = __pyx_pf_4hehe_4opsi3(__pyx_self);
+
+  /* function exit code */
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_4hehe_4opsi3(CYTHON_UNUSED PyObject *__pyx_self) {
+  PyObject *__pyx_v_input_data = NULL;
+  PyObject *__pyx_v_maks = NULL;
+  PyObject *__pyx_v_minim = NULL;
+  PyObject *__pyx_v_Range = NULL;
+  PyObject *__pyx_v_Deviasi = NULL;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
+  PyObject *__pyx_t_2 = NULL;
+  PyObject *__pyx_t_3 = NULL;
+  int __pyx_t_4;
+  PyObject *__pyx_t_5 = NULL;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("opsi3", 0);
+
+  /* "hehe.py":20
+ *     print('Maka hasil dari mean dari', input_masuk, 'adalah' , x)
+ * def opsi3():
+ *     input_data = list(map(int,input()))             # <<<<<<<<<<<<<<
+ *     maks = max(input_data)
+ *     minim = min(input_data)
+ */
+  __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_builtin_input); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 20, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 20, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_INCREF(((PyObject *)(&PyInt_Type)));
+  __Pyx_GIVEREF(((PyObject *)(&PyInt_Type)));
+  PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)(&PyInt_Type)));
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_1);
+  __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_map, __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 20, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = PySequence_List(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 20, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_input_data = ((PyObject*)__pyx_t_2);
+  __pyx_t_2 = 0;
+
+  /* "hehe.py":21
+ * def opsi3():
+ *     input_data = list(map(int,input()))
+ *     maks = max(input_data)             # <<<<<<<<<<<<<<
+ *     minim = min(input_data)
+ *     Range = maks-minim
+ */
+  __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_max, __pyx_v_input_data); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 21, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_v_maks = __pyx_t_2;
+  __pyx_t_2 = 0;
+
+  /* "hehe.py":22
+ *     input_data = list(map(int,input()))
+ *     maks = max(input_data)
+ *     minim = min(input_data)             # <<<<<<<<<<<<<<
+ *     Range = maks-minim
+ *     Deviasi = np.std(input_data)
+ */
+  __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_min, __pyx_v_input_data); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 22, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_v_minim = __pyx_t_2;
+  __pyx_t_2 = 0;
+
+  /* "hehe.py":23
+ *     maks = max(input_data)
+ *     minim = min(input_data)
+ *     Range = maks-minim             # <<<<<<<<<<<<<<
+ *     Deviasi = np.std(input_data)
+ *     print("Deviasi = {}, Maksimum = {}, Minimum = {}, dan Range = {}".format(Deviasi, maks, minim, Range))
+ */
+  __pyx_t_2 = PyNumber_Subtract(__pyx_v_maks, __pyx_v_minim); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 23, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_v_Range = __pyx_t_2;
+  __pyx_t_2 = 0;
+
+  /* "hehe.py":24
+ *     minim = min(input_data)
+ *     Range = maks-minim
+ *     Deviasi = np.std(input_data)             # <<<<<<<<<<<<<<
+ *     print("Deviasi = {}, Maksimum = {}, Minimum = {}, dan Range = {}".format(Deviasi, maks, minim, Range))
+ *     plt.hist(input_data)
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 24, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_std); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 24, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = NULL;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
+    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_3);
+    if (likely(__pyx_t_1)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+      __Pyx_INCREF(__pyx_t_1);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_3, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_1, __pyx_v_input_data) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_input_data);
+  __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 24, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_v_Deviasi = __pyx_t_2;
+  __pyx_t_2 = 0;
+
+  /* "hehe.py":25
+ *     Range = maks-minim
+ *     Deviasi = np.std(input_data)
+ *     print("Deviasi = {}, Maksimum = {}, Minimum = {}, dan Range = {}".format(Deviasi, maks, minim, Range))             # <<<<<<<<<<<<<<
+ *     plt.hist(input_data)
+ *     plt.show()
+ */
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Deviasi_Maksimum_Minimum_dan_Ran, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 25, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_1 = NULL;
+  __pyx_t_4 = 0;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_3);
+    if (likely(__pyx_t_1)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+      __Pyx_INCREF(__pyx_t_1);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_3, function);
+      __pyx_t_4 = 1;
+    }
+  }
+  #if CYTHON_FAST_PYCALL
+  if (PyFunction_Check(__pyx_t_3)) {
+    PyObject *__pyx_temp[5] = {__pyx_t_1, __pyx_v_Deviasi, __pyx_v_maks, __pyx_v_minim, __pyx_v_Range};
+    __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_4, 4+__pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 25, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_GOTREF(__pyx_t_2);
+  } else
+  #endif
+  #if CYTHON_FAST_PYCCALL
+  if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
+    PyObject *__pyx_temp[5] = {__pyx_t_1, __pyx_v_Deviasi, __pyx_v_maks, __pyx_v_minim, __pyx_v_Range};
+    __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_4, 4+__pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 25, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_GOTREF(__pyx_t_2);
+  } else
+  #endif
+  {
+    __pyx_t_5 = PyTuple_New(4+__pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 25, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    if (__pyx_t_1) {
+      __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1); __pyx_t_1 = NULL;
+    }
+    __Pyx_INCREF(__pyx_v_Deviasi);
+    __Pyx_GIVEREF(__pyx_v_Deviasi);
+    PyTuple_SET_ITEM(__pyx_t_5, 0+__pyx_t_4, __pyx_v_Deviasi);
+    __Pyx_INCREF(__pyx_v_maks);
+    __Pyx_GIVEREF(__pyx_v_maks);
+    PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_4, __pyx_v_maks);
+    __Pyx_INCREF(__pyx_v_minim);
+    __Pyx_GIVEREF(__pyx_v_minim);
+    PyTuple_SET_ITEM(__pyx_t_5, 2+__pyx_t_4, __pyx_v_minim);
+    __Pyx_INCREF(__pyx_v_Range);
+    __Pyx_GIVEREF(__pyx_v_Range);
+    PyTuple_SET_ITEM(__pyx_t_5, 3+__pyx_t_4, __pyx_v_Range);
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 25, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  }
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_2) < 0) __PYX_ERR(0, 25, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "hehe.py":26
+ *     Deviasi = np.std(input_data)
+ *     print("Deviasi = {}, Maksimum = {}, Minimum = {}, dan Range = {}".format(Deviasi, maks, minim, Range))
+ *     plt.hist(input_data)             # <<<<<<<<<<<<<<
+ *     plt.show()
+ * if __name__=='__main__':
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_hist); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_t_3 = NULL;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
+    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_5);
+    if (likely(__pyx_t_3)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+      __Pyx_INCREF(__pyx_t_3);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_5, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_3, __pyx_v_input_data) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_input_data);
+  __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "hehe.py":27
+ *     print("Deviasi = {}, Maksimum = {}, Minimum = {}, dan Range = {}".format(Deviasi, maks, minim, Range))
+ *     plt.hist(input_data)
+ *     plt.show()             # <<<<<<<<<<<<<<
+ * if __name__=='__main__':
+ *     while(True):
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_plt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 27, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_show); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 27, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = NULL;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
+    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_3);
+    if (likely(__pyx_t_5)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+      __Pyx_INCREF(__pyx_t_5);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_3, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_5) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 27, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "hehe.py":19
+ *     x = np.mean(input_masuk)
+ *     print('Maka hasil dari mean dari', input_masuk, 'adalah' , x)
+ * def opsi3():             # <<<<<<<<<<<<<<
+ *     input_data = list(map(int,input()))
+ *     maks = max(input_data)
+ */
+
+  /* function exit code */
+  __pyx_r = Py_None; __Pyx_INCREF(Py_None);
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_5);
+  __Pyx_AddTraceback("hehe.opsi3", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_XDECREF(__pyx_v_input_data);
+  __Pyx_XDECREF(__pyx_v_maks);
+  __Pyx_XDECREF(__pyx_v_minim);
+  __Pyx_XDECREF(__pyx_v_Range);
+  __Pyx_XDECREF(__pyx_v_Deviasi);
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
@@ -1856,46 +2176,64 @@ static struct PyModuleDef __pyx_moduledef = {
 
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_, __pyx_k_, sizeof(__pyx_k_), 0, 0, 1, 0},
+  {&__pyx_n_s_Deviasi, __pyx_k_Deviasi, sizeof(__pyx_k_Deviasi), 0, 0, 1, 1},
+  {&__pyx_kp_s_Deviasi_Maksimum_Minimum_dan_Ran, __pyx_k_Deviasi_Maksimum_Minimum_dan_Ran, sizeof(__pyx_k_Deviasi_Maksimum_Minimum_dan_Ran), 0, 0, 1, 0},
   {&__pyx_n_s_Keluar, __pyx_k_Keluar, sizeof(__pyx_k_Keluar), 0, 0, 1, 1},
   {&__pyx_kp_s_Maka_hasil_dari_mean_dari, __pyx_k_Maka_hasil_dari_mean_dari, sizeof(__pyx_k_Maka_hasil_dari_mean_dari), 0, 0, 1, 0},
   {&__pyx_kp_s_Makasih_dah_make, __pyx_k_Makasih_dah_make, sizeof(__pyx_k_Makasih_dah_make), 0, 0, 1, 0},
   {&__pyx_kp_s_Masukkan_pilihan, __pyx_k_Masukkan_pilihan, sizeof(__pyx_k_Masukkan_pilihan), 0, 0, 1, 0},
+  {&__pyx_n_s_Range, __pyx_k_Range, sizeof(__pyx_k_Range), 0, 0, 1, 1},
   {&__pyx_kp_s_Salah_cuk, __pyx_k_Salah_cuk, sizeof(__pyx_k_Salah_cuk), 0, 0, 1, 0},
-  {&__pyx_kp_s_Salah_cuk_2, __pyx_k_Salah_cuk_2, sizeof(__pyx_k_Salah_cuk_2), 0, 0, 1, 0},
-  {&__pyx_kp_s__6, __pyx_k__6, sizeof(__pyx_k__6), 0, 0, 1, 0},
+  {&__pyx_n_s__2, __pyx_k__2, sizeof(__pyx_k__2), 0, 0, 1, 1},
+  {&__pyx_kp_s__9, __pyx_k__9, sizeof(__pyx_k__9), 0, 0, 1, 0},
   {&__pyx_n_s_adalah, __pyx_k_adalah, sizeof(__pyx_k_adalah), 0, 0, 1, 1},
   {&__pyx_n_s_asarray, __pyx_k_asarray, sizeof(__pyx_k_asarray), 0, 0, 1, 1},
   {&__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
   {&__pyx_n_s_end, __pyx_k_end, sizeof(__pyx_k_end), 0, 0, 1, 1},
   {&__pyx_n_s_exit, __pyx_k_exit, sizeof(__pyx_k_exit), 0, 0, 1, 1},
   {&__pyx_n_s_file, __pyx_k_file, sizeof(__pyx_k_file), 0, 0, 1, 1},
+  {&__pyx_n_s_format, __pyx_k_format, sizeof(__pyx_k_format), 0, 0, 1, 1},
   {&__pyx_n_s_hehe, __pyx_k_hehe, sizeof(__pyx_k_hehe), 0, 0, 1, 1},
   {&__pyx_kp_s_hehe_py, __pyx_k_hehe_py, sizeof(__pyx_k_hehe_py), 0, 0, 1, 0},
+  {&__pyx_n_s_hist, __pyx_k_hist, sizeof(__pyx_k_hist), 0, 0, 1, 1},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
   {&__pyx_n_s_input, __pyx_k_input, sizeof(__pyx_k_input), 0, 0, 1, 1},
+  {&__pyx_n_s_input_data, __pyx_k_input_data, sizeof(__pyx_k_input_data), 0, 0, 1, 1},
   {&__pyx_n_s_input_masuk, __pyx_k_input_masuk, sizeof(__pyx_k_input_masuk), 0, 0, 1, 1},
   {&__pyx_n_s_key, __pyx_k_key, sizeof(__pyx_k_key), 0, 0, 1, 1},
   {&__pyx_n_s_keys, __pyx_k_keys, sizeof(__pyx_k_keys), 0, 0, 1, 1},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
+  {&__pyx_n_s_maks, __pyx_k_maks, sizeof(__pyx_k_maks), 0, 0, 1, 1},
   {&__pyx_n_s_map, __pyx_k_map, sizeof(__pyx_k_map), 0, 0, 1, 1},
+  {&__pyx_n_s_matplotlib_pyplot, __pyx_k_matplotlib_pyplot, sizeof(__pyx_k_matplotlib_pyplot), 0, 0, 1, 1},
+  {&__pyx_n_s_max, __pyx_k_max, sizeof(__pyx_k_max), 0, 0, 1, 1},
   {&__pyx_n_s_mean, __pyx_k_mean, sizeof(__pyx_k_mean), 0, 0, 1, 1},
+  {&__pyx_n_s_min, __pyx_k_min, sizeof(__pyx_k_min), 0, 0, 1, 1},
+  {&__pyx_n_s_minim, __pyx_k_minim, sizeof(__pyx_k_minim), 0, 0, 1, 1},
   {&__pyx_n_s_name, __pyx_k_name, sizeof(__pyx_k_name), 0, 0, 1, 1},
   {&__pyx_n_s_np, __pyx_k_np, sizeof(__pyx_k_np), 0, 0, 1, 1},
   {&__pyx_n_s_numpy, __pyx_k_numpy, sizeof(__pyx_k_numpy), 0, 0, 1, 1},
   {&__pyx_n_s_opsi, __pyx_k_opsi, sizeof(__pyx_k_opsi), 0, 0, 1, 1},
   {&__pyx_n_s_opsi1, __pyx_k_opsi1, sizeof(__pyx_k_opsi1), 0, 0, 1, 1},
+  {&__pyx_n_s_opsi3, __pyx_k_opsi3, sizeof(__pyx_k_opsi3), 0, 0, 1, 1},
   {&__pyx_kp_s_opsi_1, __pyx_k_opsi_1, sizeof(__pyx_k_opsi_1), 0, 0, 1, 0},
+  {&__pyx_kp_s_opsi_3, __pyx_k_opsi_3, sizeof(__pyx_k_opsi_3), 0, 0, 1, 0},
   {&__pyx_n_s_opsi_menu, __pyx_k_opsi_menu, sizeof(__pyx_k_opsi_menu), 0, 0, 1, 1},
+  {&__pyx_n_s_plt, __pyx_k_plt, sizeof(__pyx_k_plt), 0, 0, 1, 1},
   {&__pyx_n_s_print, __pyx_k_print, sizeof(__pyx_k_print), 0, 0, 1, 1},
   {&__pyx_n_s_print_menu, __pyx_k_print_menu, sizeof(__pyx_k_print_menu), 0, 0, 1, 1},
+  {&__pyx_n_s_show, __pyx_k_show, sizeof(__pyx_k_show), 0, 0, 1, 1},
+  {&__pyx_n_s_std, __pyx_k_std, sizeof(__pyx_k_std), 0, 0, 1, 1},
   {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
   {&__pyx_n_s_x, __pyx_k_x, sizeof(__pyx_k_x), 0, 0, 1, 1},
   {0, 0, 0, 0, 0, 0, 0}
 };
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
-  __pyx_builtin_input = __Pyx_GetBuiltinName(__pyx_n_s_input); if (!__pyx_builtin_input) __PYX_ERR(0, 24, __pyx_L1_error)
-  __pyx_builtin_exit = __Pyx_GetBuiltinName(__pyx_n_s_exit); if (!__pyx_builtin_exit) __PYX_ERR(0, 32, __pyx_L1_error)
-  __pyx_builtin_map = __Pyx_GetBuiltinName(__pyx_n_s_map); if (!__pyx_builtin_map) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_builtin_input = __Pyx_GetBuiltinName(__pyx_n_s_input); if (!__pyx_builtin_input) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_builtin_exit = __Pyx_GetBuiltinName(__pyx_n_s_exit); if (!__pyx_builtin_exit) __PYX_ERR(0, 43, __pyx_L1_error)
+  __pyx_builtin_map = __Pyx_GetBuiltinName(__pyx_n_s_map); if (!__pyx_builtin_map) __PYX_ERR(0, 15, __pyx_L1_error)
+  __pyx_builtin_max = __Pyx_GetBuiltinName(__pyx_n_s_max); if (!__pyx_builtin_max) __PYX_ERR(0, 21, __pyx_L1_error)
+  __pyx_builtin_min = __Pyx_GetBuiltinName(__pyx_n_s_min); if (!__pyx_builtin_min) __PYX_ERR(0, 22, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -1905,40 +2243,52 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "hehe.py":10
+  /* "hehe.py":11
  * }
  * 
  * def print_menu():             # <<<<<<<<<<<<<<
  *     for key in opsi_menu.keys():
  *         print (key, '--', opsi_menu[key] )
  */
-  __pyx_tuple__2 = PyTuple_Pack(1, __pyx_n_s_key); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(0, 10, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__2);
-  __Pyx_GIVEREF(__pyx_tuple__2);
-  __pyx_codeobj__3 = (PyObject*)__Pyx_PyCode_New(0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__2, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_hehe_py, __pyx_n_s_print_menu, 10, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__3)) __PYX_ERR(0, 10, __pyx_L1_error)
+  __pyx_tuple__3 = PyTuple_Pack(1, __pyx_n_s_key); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 11, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__3);
+  __Pyx_GIVEREF(__pyx_tuple__3);
+  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_hehe_py, __pyx_n_s_print_menu, 11, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) __PYX_ERR(0, 11, __pyx_L1_error)
 
-  /* "hehe.py":13
+  /* "hehe.py":14
  *     for key in opsi_menu.keys():
  *         print (key, '--', opsi_menu[key] )
  * def opsi1():             # <<<<<<<<<<<<<<
  *     input_masuk = list(map(int,input()))
  *     input_masuk = np.asarray(input_masuk)
  */
-  __pyx_tuple__4 = PyTuple_Pack(2, __pyx_n_s_input_masuk, __pyx_n_s_x); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(0, 13, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__4);
-  __Pyx_GIVEREF(__pyx_tuple__4);
-  __pyx_codeobj__5 = (PyObject*)__Pyx_PyCode_New(0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__4, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_hehe_py, __pyx_n_s_opsi1, 13, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__5)) __PYX_ERR(0, 13, __pyx_L1_error)
+  __pyx_tuple__5 = PyTuple_Pack(2, __pyx_n_s_input_masuk, __pyx_n_s_x); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__5);
+  __Pyx_GIVEREF(__pyx_tuple__5);
+  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_hehe_py, __pyx_n_s_opsi1, 14, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) __PYX_ERR(0, 14, __pyx_L1_error)
 
-  /* "hehe.py":24
+  /* "hehe.py":19
+ *     x = np.mean(input_masuk)
+ *     print('Maka hasil dari mean dari', input_masuk, 'adalah' , x)
+ * def opsi3():             # <<<<<<<<<<<<<<
+ *     input_data = list(map(int,input()))
+ *     maks = max(input_data)
+ */
+  __pyx_tuple__7 = PyTuple_Pack(5, __pyx_n_s_input_data, __pyx_n_s_maks, __pyx_n_s_minim, __pyx_n_s_Range, __pyx_n_s_Deviasi); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 19, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__7);
+  __Pyx_GIVEREF(__pyx_tuple__7);
+  __pyx_codeobj__8 = (PyObject*)__Pyx_PyCode_New(0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__7, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_hehe_py, __pyx_n_s_opsi3, 19, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__8)) __PYX_ERR(0, 19, __pyx_L1_error)
+
+  /* "hehe.py":33
  *         opsi = ''
  *         try:
  *             opsi = int(input('Masukkan pilihan: '))             # <<<<<<<<<<<<<<
  *         except:
  *             print('Salah cuk ...')
  */
-  __pyx_tuple__7 = PyTuple_Pack(1, __pyx_kp_s_Masukkan_pilihan); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 24, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__7);
-  __Pyx_GIVEREF(__pyx_tuple__7);
+  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_Masukkan_pilihan); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__10);
+  __Pyx_GIVEREF(__pyx_tuple__10);
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -1950,6 +2300,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitGlobals(void) {
   if (__Pyx_InitStrings(__pyx_string_tab) < 0) __PYX_ERR(0, 1, __pyx_L1_error);
   __pyx_int_1 = PyInt_FromLong(1); if (unlikely(!__pyx_int_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_2 = PyInt_FromLong(2); if (unlikely(!__pyx_int_2)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_3 = PyInt_FromLong(3); if (unlikely(!__pyx_int_3)) __PYX_ERR(0, 1, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -2114,8 +2465,8 @@ static CYTHON_SMALL_CODE int __pyx_pymod_exec_hehe(PyObject *__pyx_pyinit_module
 #endif
 {
   PyObject *__pyx_t_1 = NULL;
-  int __pyx_t_2;
-  PyObject *__pyx_t_3 = NULL;
+  PyObject *__pyx_t_2 = NULL;
+  int __pyx_t_3;
   PyObject *__pyx_t_4 = NULL;
   PyObject *__pyx_t_5 = NULL;
   PyObject *__pyx_t_6 = NULL;
@@ -2229,7 +2580,7 @@ if (!__Pyx_RefNanny) {
  * # Author : Alif Radhitya
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
- * 
+ * import matplotlib.pyplot as plt
  * opsi_menu = {
  */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_numpy, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 3, __pyx_L1_error)
@@ -2237,59 +2588,90 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "hehe.py":6
+  /* "hehe.py":4
  * 
+ * import numpy as np
+ * import matplotlib.pyplot as plt             # <<<<<<<<<<<<<<
+ * opsi_menu = {
+ *     1: 'opsi 1',
+ */
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_INCREF(__pyx_n_s__2);
+  __Pyx_GIVEREF(__pyx_n_s__2);
+  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s__2);
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_matplotlib_pyplot, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_plt, __pyx_t_2) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "hehe.py":6
+ * import matplotlib.pyplot as plt
  * opsi_menu = {
  *     1: 'opsi 1',             # <<<<<<<<<<<<<<
  *     2: 'Keluar',
- * }
+ *     3: 'opsi 3',
  */
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 6, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_1, __pyx_kp_s_opsi_1) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_int_2, __pyx_n_s_Keluar) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_opsi_menu, __pyx_t_1) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_t_2, __pyx_int_1, __pyx_kp_s_opsi_1) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_int_2, __pyx_n_s_Keluar) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_int_3, __pyx_kp_s_opsi_3) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_opsi_menu, __pyx_t_2) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "hehe.py":10
+  /* "hehe.py":11
  * }
  * 
  * def print_menu():             # <<<<<<<<<<<<<<
  *     for key in opsi_menu.keys():
  *         print (key, '--', opsi_menu[key] )
  */
-  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4hehe_1print_menu, 0, __pyx_n_s_print_menu, NULL, __pyx_n_s_hehe, __pyx_d, ((PyObject *)__pyx_codeobj__3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 10, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_print_menu, __pyx_t_1) < 0) __PYX_ERR(0, 10, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_4hehe_1print_menu, 0, __pyx_n_s_print_menu, NULL, __pyx_n_s_hehe, __pyx_d, ((PyObject *)__pyx_codeobj__4)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 11, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_print_menu, __pyx_t_2) < 0) __PYX_ERR(0, 11, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "hehe.py":13
+  /* "hehe.py":14
  *     for key in opsi_menu.keys():
  *         print (key, '--', opsi_menu[key] )
  * def opsi1():             # <<<<<<<<<<<<<<
  *     input_masuk = list(map(int,input()))
  *     input_masuk = np.asarray(input_masuk)
  */
-  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4hehe_3opsi1, 0, __pyx_n_s_opsi1, NULL, __pyx_n_s_hehe, __pyx_d, ((PyObject *)__pyx_codeobj__5)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 13, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_opsi1, __pyx_t_1) < 0) __PYX_ERR(0, 13, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_4hehe_3opsi1, 0, __pyx_n_s_opsi1, NULL, __pyx_n_s_hehe, __pyx_d, ((PyObject *)__pyx_codeobj__6)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_opsi1, __pyx_t_2) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "hehe.py":19
+ *     x = np.mean(input_masuk)
  *     print('Maka hasil dari mean dari', input_masuk, 'adalah' , x)
- * 
+ * def opsi3():             # <<<<<<<<<<<<<<
+ *     input_data = list(map(int,input()))
+ *     maks = max(input_data)
+ */
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_4hehe_5opsi3, 0, __pyx_n_s_opsi3, NULL, __pyx_n_s_hehe, __pyx_d, ((PyObject *)__pyx_codeobj__8)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 19, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_opsi3, __pyx_t_2) < 0) __PYX_ERR(0, 19, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "hehe.py":28
+ *     plt.hist(input_data)
+ *     plt.show()
  * if __name__=='__main__':             # <<<<<<<<<<<<<<
  *     while(True):
  *         print_menu()
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_name); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 19, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = (__Pyx_PyString_Equals(__pyx_t_1, __pyx_n_s_main, Py_EQ)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 19, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__pyx_t_2) {
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_name); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 28, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = (__Pyx_PyString_Equals(__pyx_t_2, __pyx_n_s_main, Py_EQ)); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 28, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_3) {
 
-    /* "hehe.py":20
- * 
+    /* "hehe.py":29
+ *     plt.show()
  * if __name__=='__main__':
  *     while(True):             # <<<<<<<<<<<<<<
  *         print_menu()
@@ -2297,42 +2679,42 @@ if (!__Pyx_RefNanny) {
  */
     while (1) {
 
-      /* "hehe.py":21
+      /* "hehe.py":30
  * if __name__=='__main__':
  *     while(True):
  *         print_menu()             # <<<<<<<<<<<<<<
  *         opsi = ''
  *         try:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_print_menu); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 21, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_print_menu); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 30, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
       __pyx_t_4 = NULL;
-      if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
-        __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_3);
+      if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+        __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_1);
         if (likely(__pyx_t_4)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
           __Pyx_INCREF(__pyx_t_4);
           __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_3, function);
+          __Pyx_DECREF_SET(__pyx_t_1, function);
         }
       }
-      __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
+      __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_1);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 21, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 30, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "hehe.py":22
+      /* "hehe.py":31
  *     while(True):
  *         print_menu()
  *         opsi = ''             # <<<<<<<<<<<<<<
  *         try:
  *             opsi = int(input('Masukkan pilihan: '))
  */
-      if (PyDict_SetItem(__pyx_d, __pyx_n_s_opsi, __pyx_kp_s__6) < 0) __PYX_ERR(0, 22, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_d, __pyx_n_s_opsi, __pyx_kp_s__9) < 0) __PYX_ERR(0, 31, __pyx_L1_error)
 
-      /* "hehe.py":23
+      /* "hehe.py":32
  *         print_menu()
  *         opsi = ''
  *         try:             # <<<<<<<<<<<<<<
@@ -2348,22 +2730,22 @@ if (!__Pyx_RefNanny) {
         __Pyx_XGOTREF(__pyx_t_7);
         /*try:*/ {
 
-          /* "hehe.py":24
+          /* "hehe.py":33
  *         opsi = ''
  *         try:
  *             opsi = int(input('Masukkan pilihan: '))             # <<<<<<<<<<<<<<
  *         except:
  *             print('Salah cuk ...')
  */
-          __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_input, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 24, __pyx_L5_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_input, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 33, __pyx_L5_error)
+          __Pyx_GOTREF(__pyx_t_2);
+          __pyx_t_1 = __Pyx_PyNumber_Int(__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 33, __pyx_L5_error)
           __Pyx_GOTREF(__pyx_t_1);
-          __pyx_t_3 = __Pyx_PyNumber_Int(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 24, __pyx_L5_error)
-          __Pyx_GOTREF(__pyx_t_3);
+          __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+          if (PyDict_SetItem(__pyx_d, __pyx_n_s_opsi, __pyx_t_1) < 0) __PYX_ERR(0, 33, __pyx_L5_error)
           __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-          if (PyDict_SetItem(__pyx_d, __pyx_n_s_opsi, __pyx_t_3) < 0) __PYX_ERR(0, 24, __pyx_L5_error)
-          __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-          /* "hehe.py":23
+          /* "hehe.py":32
  *         print_menu()
  *         opsi = ''
  *         try:             # <<<<<<<<<<<<<<
@@ -2377,10 +2759,10 @@ if (!__Pyx_RefNanny) {
         goto __pyx_L12_try_end;
         __pyx_L5_error:;
         __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+        __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "hehe.py":25
+        /* "hehe.py":34
  *         try:
  *             opsi = int(input('Masukkan pilihan: '))
  *         except:             # <<<<<<<<<<<<<<
@@ -2389,27 +2771,27 @@ if (!__Pyx_RefNanny) {
  */
         /*except:*/ {
           __Pyx_AddTraceback("hehe", __pyx_clineno, __pyx_lineno, __pyx_filename);
-          if (__Pyx_GetException(&__pyx_t_3, &__pyx_t_1, &__pyx_t_4) < 0) __PYX_ERR(0, 25, __pyx_L7_except_error)
-          __Pyx_GOTREF(__pyx_t_3);
+          if (__Pyx_GetException(&__pyx_t_1, &__pyx_t_2, &__pyx_t_4) < 0) __PYX_ERR(0, 34, __pyx_L7_except_error)
           __Pyx_GOTREF(__pyx_t_1);
+          __Pyx_GOTREF(__pyx_t_2);
           __Pyx_GOTREF(__pyx_t_4);
 
-          /* "hehe.py":26
+          /* "hehe.py":35
  *             opsi = int(input('Masukkan pilihan: '))
  *         except:
  *             print('Salah cuk ...')             # <<<<<<<<<<<<<<
  * 
  *         if opsi == 1:
  */
-          if (__Pyx_PrintOne(0, __pyx_kp_s_Salah_cuk) < 0) __PYX_ERR(0, 26, __pyx_L7_except_error)
-          __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+          if (__Pyx_PrintOne(0, __pyx_kp_s_Salah_cuk) < 0) __PYX_ERR(0, 35, __pyx_L7_except_error)
           __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+          __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           goto __pyx_L6_exception_handled;
         }
         __pyx_L7_except_error:;
 
-        /* "hehe.py":23
+        /* "hehe.py":32
  *         print_menu()
  *         opsi = ''
  *         try:             # <<<<<<<<<<<<<<
@@ -2429,97 +2811,149 @@ if (!__Pyx_RefNanny) {
         __pyx_L12_try_end:;
       }
 
-      /* "hehe.py":28
+      /* "hehe.py":37
  *             print('Salah cuk ...')
  * 
  *         if opsi == 1:             # <<<<<<<<<<<<<<
  *                 opsi1()
- *         elif opsi == 2:
+ *         elif opsi == 3:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_opsi); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 28, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_opsi); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 37, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_1 = __Pyx_PyInt_EqObjC(__pyx_t_4, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
+      __pyx_t_2 = __Pyx_PyInt_EqObjC(__pyx_t_4, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 37, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 28, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      if (__pyx_t_2) {
+      __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 37, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      if (__pyx_t_3) {
 
-        /* "hehe.py":29
+        /* "hehe.py":38
  * 
  *         if opsi == 1:
  *                 opsi1()             # <<<<<<<<<<<<<<
- *         elif opsi == 2:
- *             print('Makasih dah make :*')
+ *         elif opsi == 3:
+ *             opsi3()
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_opsi1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 29, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_opsi1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 38, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_3 = NULL;
+        __pyx_t_1 = NULL;
         if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
-          __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_4);
-          if (likely(__pyx_t_3)) {
+          __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_4);
+          if (likely(__pyx_t_1)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
-            __Pyx_INCREF(__pyx_t_3);
+            __Pyx_INCREF(__pyx_t_1);
             __Pyx_INCREF(function);
             __Pyx_DECREF_SET(__pyx_t_4, function);
           }
         }
-        __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_4);
-        __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 29, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
+        __pyx_t_2 = (__pyx_t_1) ? __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_1) : __Pyx_PyObject_CallNoArg(__pyx_t_4);
+        __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 38, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "hehe.py":28
+        /* "hehe.py":37
  *             print('Salah cuk ...')
  * 
  *         if opsi == 1:             # <<<<<<<<<<<<<<
  *                 opsi1()
+ *         elif opsi == 3:
+ */
+        goto __pyx_L15;
+      }
+
+      /* "hehe.py":39
+ *         if opsi == 1:
+ *                 opsi1()
+ *         elif opsi == 3:             # <<<<<<<<<<<<<<
+ *             opsi3()
+ *         elif opsi == 2:
+ */
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_opsi); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 39, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_2, __pyx_int_3, 3, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 39, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 39, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      if (__pyx_t_3) {
+
+        /* "hehe.py":40
+ *                 opsi1()
+ *         elif opsi == 3:
+ *             opsi3()             # <<<<<<<<<<<<<<
+ *         elif opsi == 2:
+ *             print('Makasih dah make :*')
+ */
+        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_opsi3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 40, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
+        __pyx_t_1 = NULL;
+        if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+          __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_2);
+          if (likely(__pyx_t_1)) {
+            PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+            __Pyx_INCREF(__pyx_t_1);
+            __Pyx_INCREF(function);
+            __Pyx_DECREF_SET(__pyx_t_2, function);
+          }
+        }
+        __pyx_t_4 = (__pyx_t_1) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_1) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
+        __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 40, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+
+        /* "hehe.py":39
+ *         if opsi == 1:
+ *                 opsi1()
+ *         elif opsi == 3:             # <<<<<<<<<<<<<<
+ *             opsi3()
  *         elif opsi == 2:
  */
         goto __pyx_L15;
       }
 
-      /* "hehe.py":30
- *         if opsi == 1:
- *                 opsi1()
+      /* "hehe.py":41
+ *         elif opsi == 3:
+ *             opsi3()
  *         elif opsi == 2:             # <<<<<<<<<<<<<<
  *             print('Makasih dah make :*')
  *             exit()
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_opsi); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 30, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_1, __pyx_int_2, 2, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 30, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_opsi); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 41, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 30, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyInt_EqObjC(__pyx_t_4, __pyx_int_2, 2, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 41, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (__pyx_t_2) {
+      __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 41, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      if (__pyx_t_3) {
 
-        /* "hehe.py":31
- *                 opsi1()
+        /* "hehe.py":42
+ *             opsi3()
  *         elif opsi == 2:
  *             print('Makasih dah make :*')             # <<<<<<<<<<<<<<
  *             exit()
  *         else:
  */
-        if (__Pyx_PrintOne(0, __pyx_kp_s_Makasih_dah_make) < 0) __PYX_ERR(0, 31, __pyx_L1_error)
+        if (__Pyx_PrintOne(0, __pyx_kp_s_Makasih_dah_make) < 0) __PYX_ERR(0, 42, __pyx_L1_error)
 
-        /* "hehe.py":32
+        /* "hehe.py":43
  *         elif opsi == 2:
  *             print('Makasih dah make :*')
  *             exit()             # <<<<<<<<<<<<<<
  *         else:
- *             print('Salah cuk')
+ *             print('')
  */
-        __pyx_t_4 = __Pyx_PyObject_CallNoArg(__pyx_builtin_exit); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 32, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __pyx_t_2 = __Pyx_PyObject_CallNoArg(__pyx_builtin_exit); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 43, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "hehe.py":30
- *         if opsi == 1:
- *                 opsi1()
+        /* "hehe.py":41
+ *         elif opsi == 3:
+ *             opsi3()
  *         elif opsi == 2:             # <<<<<<<<<<<<<<
  *             print('Makasih dah make :*')
  *             exit()
@@ -2527,20 +2961,20 @@ if (!__Pyx_RefNanny) {
         goto __pyx_L15;
       }
 
-      /* "hehe.py":34
+      /* "hehe.py":45
  *             exit()
  *         else:
- *             print('Salah cuk')             # <<<<<<<<<<<<<<
+ *             print('')             # <<<<<<<<<<<<<<
  */
       /*else*/ {
-        if (__Pyx_PrintOne(0, __pyx_kp_s_Salah_cuk_2) < 0) __PYX_ERR(0, 34, __pyx_L1_error)
+        if (__Pyx_PrintOne(0, __pyx_kp_s__9) < 0) __PYX_ERR(0, 45, __pyx_L1_error)
       }
       __pyx_L15:;
     }
 
-    /* "hehe.py":19
- *     print('Maka hasil dari mean dari', input_masuk, 'adalah' , x)
- * 
+    /* "hehe.py":28
+ *     plt.hist(input_data)
+ *     plt.show()
  * if __name__=='__main__':             # <<<<<<<<<<<<<<
  *     while(True):
  *         print_menu()
@@ -2552,17 +2986,17 @@ if (!__Pyx_RefNanny) {
  * 
  * import numpy as np
  */
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_4) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_2) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /*--- Wrapped vars code ---*/
 
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4);
   if (__pyx_m) {
     if (__pyx_d) {
