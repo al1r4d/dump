@@ -4,11 +4,21 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 import statistics as st
+import pandas as pd
+import random
 
+print("""
+          __          __                            
+  _______/  |______ _/  |_  ______    ______ ___.__.
+ /  ___/\   __\__  \\   __\/  ___/    \____ <   |  |
+ \___ \  |  |  / __ \|  |  \___ \     |  |_> >___  |
+/____  > |__| (____  /__| /____  > /\ |   __// ____|
+     \/            \/          \/  \/ |__|   \/     
+""")
+print('Alif Radhitya | Hanya untuk bersenang - senang')
 opsi_menu = {
     1: 'opsi 1',
     2: 'Keluar',
-    3: 'opsi 3',
 }
 
 def print_menu():
@@ -26,11 +36,13 @@ def opsi1():
     sturgess = 1+3.3*math.log10(suku)
     print('Maka hasil dari sturgess adalah' , sturgess)
     sturgess_round = print('dan dibulatkan menjadi', round(sturgess))
-    print('Interval')
     interval = (max(input_masuk)-min(input_masuk))/round(sturgess)
-    print(interval)
+    print('Interval:', interval)
     batas = min(input_masuk)+interval-1
-    print(batas)
+    print('Batas:', batas) 
+    #histogram = np.random.normal(input_masuk)
+    #plt.hist(histogram)
+    #plt.show()
     #interval = print('I:', print((max(input_masuk)-min(input_masuk)/print(1+3.3*math.log10(len(input_masuk))))))
   #  batas_atas_data_pertama = print('batas atas: ', min(input_masuk)-print((max(input_masuk)-min(input_masuk)/(1+3.3*math.log10(len(input_masuk))+1))))
     # k = np.histogram_bin_edges(n, bins='auto')
